@@ -1,0 +1,77 @@
+body, html {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.swap-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.swap-form {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+  padding: 2.5rem 2rem;
+  min-width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.swap-form h2 {
+  margin: 0 0 1rem 0;
+  text-align: center;
+  color: #3730a3;
+}
+.swap-row {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.swap-row label {
+  flex: 1;
+  color: #6366f1;
+}
+.swap-row select, .swap-row input {
+  flex: 2;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #c7d2fe;
+  font-size: 1rem;
+}
+.token-img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #f1f5f9;
+  border: 1px solid #e0e7ff;
+}
+button {
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:disabled {
+  background: #a5b4fc;
+  cursor: not-allowed;
+}
+.error {
+  color: #dc2626;
+  background: #fee2e2;
+  border-radius: 6px;
+  padding: 0.5rem;
+  text-align: center;
+}
+.result {
+  margin-top: 1rem;
+  color: #059669;
+  font-weight: bold;
+  text-align: center;
+}
